@@ -1,0 +1,58 @@
+{
+  "name": "bomberos-cl-api",
+  "version": "0.0.1",
+  "description": "Listado de Cuerpos de Bomberos de Chile en json y csv",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint index.js",
+    "format": "prettier-standard index.js",
+    "pretest": "npm run lint -s && npm run format -s",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lgaticaq/bomberos-cl-api.git"
+  },
+  "keywords": [
+    "bomberos",
+    "chile",
+    "json",
+    "csv"
+  ],
+  "author": "Leonardo Gatica <lgatica@protonmail.com> (https://about.me/lgatica)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lgaticaq/bomberos-cl-api/issues"
+  },
+  "homepage": "https://github.com/lgaticaq/bomberos-cl-api#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cheerio": "^1.0.0-rc.1",
+    "fs": "0.0.1-security",
+    "got": "^7.0.0",
+    "node-geocoder": "^3.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier-standard": "^5.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "es6": true,
+      "node": true
+    }
+  }
+}
