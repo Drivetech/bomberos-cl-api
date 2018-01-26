@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/lgaticaq/bomberos-cl-api#readme",
   "dependencies": {
-    "bluebird": "^3.5.0",
+    "bluebird": "^3.0.0",
     "cheerio": "^1.0.0-rc.1",
     "got": "^8.0.0",
     "node-geocoder": "^3.16.0"
